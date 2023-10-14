@@ -1,0 +1,19 @@
+# Archivos y directorios generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Carpetas específicas de sistemas operativos
+node_modules/
+.idea/
+.vscode/
+
+# Archivos de construcción y logs
+dist/
+build/
+*.log
+
+# Archivo .env
+.env
+
+# Dependiendo de tu entorno y lenguaje de programación, podrías necesitar agregar más entradas
+# para ignorar archivos generados o carpetas específicas.

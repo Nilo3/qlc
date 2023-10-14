@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+.containertrivia {
+  background: url("https://images8.alphacoders.com/115/1156676.jpg");
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 101%;
+  min-height: 101vh;
+  background-position: center;
+  background-size: cover;
+  margin-top: -10px;
+  margin-left: -10px;
+}
+
+.col {
+  display: flex;
+}
+
+.pregunta {
+  backdrop-filter: blur(15px);
+  width: 600px;
+  margin-left: 12rem;
+  height: 60rem;
+  background-color: #EDD5B1; 
+}
+
+.text {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  margin-top: 15rem;
+  font-family: 'Patua One', serif;
+}
+
+.opciones {
+  margin-left: 60rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 10rem;
+}
+
+.btn {
+  font-size: 2rem;
+  background-color: aqua;
+}
